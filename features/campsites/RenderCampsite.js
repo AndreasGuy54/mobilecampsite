@@ -26,7 +26,7 @@ const RenderCampsite = (props) => {
                     type='font-awesome'
                     color='#f50'
                     raised
-                    // reverse
+                    reverse
                     onPress={() =>
                         props.isFavorite
                             ? console.log('Already set as a favorite')
