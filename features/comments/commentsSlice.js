@@ -21,7 +21,6 @@ export const postComment = createAsyncThunk(
     }
 )
 
-
 const commentsSlice = createSlice({
     name: 'comments',
     initialState: { isLoading: true, errMess: null, commentsArray: [] },
