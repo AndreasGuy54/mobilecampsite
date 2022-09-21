@@ -144,7 +144,7 @@ const RegisterTab = () => {
         else {
             SecureStore.deleteItemAsync('userinfo').catch((error) => {
                 console.log('Could not delete user info', error);
-            })
+            });
         }
     }
 
